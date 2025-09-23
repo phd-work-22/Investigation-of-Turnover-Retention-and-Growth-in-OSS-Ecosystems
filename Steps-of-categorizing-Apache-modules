@@ -1,0 +1,22 @@
+This file contains the description of how we categorize modules or components into certain categories. 
+We refer all the names of the categories from the official website of Apache: https://httpd.apache.org/docs/2.4/mod/. 
+
+In the website, it lists eight names of core features and Multi-processing modules. There are modules where they are not belong to any of these core modules. 
+We categorise these other modules by considering the functions of the modules described in the official website. 
+For example: if the file name kept under this directories: modules/aaa/mod_authn_core.c, we consider this as one of modules relates to authentication. 
+Hence, the category name is auth_accs-modules. See file list_of_modules_of_apache.csv.
+
+Hereby the steps of how we categorize the Apache files
+1. We extracted the fullname of file path from the new_path field listed in the commits data.
+    If the new_path field has no value, we replaced it with the value from the old_path field.
+
+2. We truncate the new_path value. The category should follow the list of names category in the CSV file.
+    For example: 
+    Fullname of filepath of a file: ‘modules/http/http_core.c’. 
+    After it is shortened, the category name is ‘core-modules’
+    server/mpm_common.*. The category’s name is ‘mpm_common-server’. 
+    For all examples aforementioned, we use the name of the category from the CSV file(list_of_modules_categories_apache.csv).
+    The rest of the filepaths that is not listed in the csv file, should be shortened into ‘add-<name-of-the-folder>’. 
+    For example: docs should be add-docs
+    Put all the shortened filepaths into a separate column called category.
+    Save the changes to the separated CSV file.
