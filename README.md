@@ -1,4 +1,4 @@
-# Investigation-of-Turmover-Retention-and-Gorwth-in-OSS-Ecosystems
+# Investigation-of-Turnover-Retention-and-Growth-in-OSS-Ecosystems
 
 The steps of conducting our work refer to the previous work in Tulili et al. (2025). The details of the methodology can be accessed through the link:
 
@@ -30,7 +30,10 @@ The analysis phase of this study involved data aggregation and statistical techn
 
 3.1 Linking and aggregating sentiment data To address RQ1, we integrated sentiment data with commit activity by aligning records based on timestamps (year, month, day). This integration allowed us to aggregate the number of positive and negative messages for each file path annually. To evaluate sentiment trends over time, we calculated the net sentiment difference (positive minus negative messages) and normalized the results using z-score normalization. Categories were ranked from most negative to most positive and the results were visualized in a heatmap and in a table (provided in the appendices).
 
-3.2.Sampling categories for analysis Given Gentoo's extensive repository of 170 categories, we selected a representative 10% sample, resulting in 20 categories for detailed analysis. These included the ten most negative and the ten most positive categories based on sentiment scores. This approach ensured a balanced investigation of extremes in sentiment-affected components while maintaining analytical feasibility.
+3.2.Sampling categories for analysis 
+We selected a representative 15% sample, resulting in 40, 6, and 6 categories for Gentoo, Apache, and GCC respecively for further analysis. These included the twenty most negative and the twenty most positive categories of Gentoo based on sentiment scores; and three most negative and three most positive categories of Apache and GCC based on sentiment scores. 
+
+This approach ensured a balanced investigation of extremes in sentiment-affected components while maintaining analytical feasibility.
 
 The code used was hmaps-sentiment-standardnorm.R
 
