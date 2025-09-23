@@ -1,1 +1,20 @@
+This file contains the description of how we categorize modules or components into certain categories. 
+We refer all of the names of the categories based on a previous work done by Novillo 
+(Novillo, Diego. "GCC an architectural overview, current status, and future directions." Proceedings of the linux symposium. Vol. 2. 2006.)
+In Novillo's work, he described GCC into three main components: front end, middle end, and back end. Additionally, the source code itselt is organized into three major groups: core, runtime, and support.
+Taking these names: front end, middle end, back end, support, runtime into consideration of our category names. 
+All the list of the category names can be seen in a file called 'list_of_modules_categories_gcc.csv'
+
+Hereby the steps of how we categorize the GCC files
+1. We extracted the fullname of file path from the new_path field listed in the commits data.
+    If the new_path field has no value, we replaced it with the value from the old_path field.
+
+2. We truncate the new_path value, the category should follow the list of names category in the CSV file.
+    For example: 
+    Fullname of filepath: ‘gcc/config/i386/c’. 
+    After it is shortened, the category name is ‘back_end_gcc-config
+    Special folder – These modules only contain the name of folder. For example, ‘include,’. This folder should be change into ‘shared_module’. Please see the list of the folder and its category in the csv file. 
+    The rest of the filepaths that is not listed, should be shortened into ‘add-<name-of-the-folder>-<nake-of-the-subdirectory>’. For example: gcc/rust should be add_gcc-rust
+    Put all the shortened filepaths into a separate column called category.
+    Save the changes to the separated CSV file.
 
