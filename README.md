@@ -1,4 +1,4 @@
-# Investigation-of-Turnover-Retention-and-Growth-in-OSS-Ecosystems
+# Investigation of Turnover Retention and Growth in OSS Ecosystems
 
 The steps of conducting our work refer to the previous work in Tulili et al. (2025). The details of the methodology can be accessed through the link:
 
