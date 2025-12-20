@@ -1,5 +1,20 @@
 # Investigation of Turnover Retention and Growth in OSS Ecosystems
 
+## Structure of replication package
+This study comprise files employed during the experiment. We utilized two different datasets, technical mailing lists and  Github commits history, retriving from several sources, such as the official mailing list archives, archive website (e.g., marc.info), and official Github from each of oss communities. We distributed the samples of each communities' dataset under folder Datasets. 
+```text
+Main
+├── Datasets
+│   ├── Gentoo
+│   └── Apache
+|   └── GCC
+└── Codes
+    ├── Data Collection
+    ├── Preprocessing
+    └── Analysis
+```
+
+
 The steps of conducting our work refer to the previous work in Tulili et al. (2025). The details of the methodology can be accessed through the link:
 
 1. **Data collection** -- This study used two primary datasets to examine the dynamics of developer sentiment and activity within the Gentoo, Apache, and GCC open-source ecosystem. These datasets include:
@@ -14,7 +29,7 @@ Commit history dataset (July 2000–December 2024): Commit logs were retrieved d
 The dataset was structured into a database. 
 Each commit was annotated with key metadata, including committer details (e.g., name and email), timestamps, commit hashes and file paths. These details enabled precise mapping of developer activities to specific categories within the Gentoo ecosystem. 
 
-2. **Data Preprocessing **
+2. **Data Preprocessing**
 2.1 Mailing list preprocessing 
 The body content of each email was divided into individual sentences. To remove noise and irrelevant information, we applied the following cleaning steps:
 
