@@ -1,0 +1,359 @@
+These are snippets of mailing list data retrieved from the official mailing list archive of Gentoo.
+Despite of its publicly accessible, we removed data related to private information (e.g., email addresses and names).
+
+"message_id","mailing_list_url","mailing_list","first_date","first_date_tz","arrival_date","arrival_date_tz","subject","message_body","is_response_of","mail_path"
+"<xxx@xx.xx.de> (added by xx@xx.xx.de)","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 23:15:43",NA,NA,NA,"Re: [gentoo-dev] GRUB stage1 file not found","On Wed, 31 Jan 2001 14:19:47 -0700, xxx@x.x wrote:
+
+>To solve the kemap problem, before you begin you should type:
+>
+># loadkeys de-latin1-nodeadkeys
+>
+>I need to add this to the install guide.
+
+Doing this after the command env-update in step 4 
+gives me back my keyboard.
+
+
+>
+>As for the GRUB problem, I think you are specifying the wrong root and boot
+>partitions.  GRUB's ""root partition"" is our ""boot partition"".
+>
+>Try this in grub:
+>
+>grub> find /boot/grub/stage1
+>
+>GRUB should then tell you what partitions it found stage1 on.  This should
+>be the partition you specify in the grub ""root"" command.  I hope that helps.
+>
+
+GRUB tells me (hd0,11) and after reading the install guide more 
+carefully I only can agree!
+
+But after the command root (hd0,11) neither ""find"" nor ""setup"" can 
+find stage1 any more.
+
+Could it be a problem that fdisk does not write the partition records 
+in disk order? I have split a former linux partition (hda8) in boot and
+root 
+and left the swap (hda9) and ended up with boot as hda12, root as
+hda13,
+and swap as hda8.
+
+K***
+",NA,NA
+"20010131182113.D24066@cvs.gentoo.org","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 18:21:13",NA,NA,NA,"Re: [gentoo-dev] kernel freeze at scsi","On Wed, Jan 31, 2001 at 03:05:07PM -0500, XX wrote:
+> Hey sorry if this is the wrong list.
+>  I have a problem with the new release,the kernel freezes after detecting
+>  partitions.The last thing seen is scsi.I have removed every card (except
+> video)no help.Is there a way of passing a no scsi option to the kernel?
+>   Thanks
+>    XX
+
+What version of Gentoo Linux are you installing, and what kind of SCSI card
+(and CPU) do you have?
+
+
+-- 
+
+",NA,NA
+"01013115050700.07489@cg389741-a","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 18:04:07",NA,NA,NA,"[gentoo-dev] kernel freeze at scsi","Hey sorry if this is the wrong list.
+ I have a problem with the new release,the kernel freezes after detecting
+ partitions.The last thing seen is scsi.I have removed every card (except 
+video)no help.Is there a way of passing a no scsi option to the kernel?
+  Thanks 
+   XX
+",NA,NA
+"20010131141947.A23629@cvs.gentoo.org","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 14:19:47",NA,NA,NA,"Re: [gentoo-dev] GRUB stage1 file not found","On Wed, Jan 31, 2001 at 09:55:32PM +0100, XX wrote:
+
+> Today I tried to install Gentoo Linux 1.0_rc4_pre2 .  I am not very familiar
+> with linux and followed the installation guide step by step.  The vi
+> confrontation in step 4 had an additional quirk for me because of the german
+> keyboard layout. ( colon is uppercase o-umlaut) ....  But the stopper was
+> step 5: At the GRUB prompt I typed: root (hd0,12) setup (hd0,11) and grub
+> said checking for /boot/grub/stage1 and /grub/stage1  file not found
+
+To solve the kemap problem, before you begin you should type:
+
+# loadkeys de-latin1-nodeadkeys
+
+I need to add this to the install guide.
+
+As for the GRUB problem, I think you are specifying the wrong root and boot
+partitions.  GRUB's ""root partition"" is our ""boot partition"".
+
+Try this in grub:
+
+grub> find /boot/grub/stage1
+
+GRUB should then tell you what partitions it found stage1 on.  This should
+be the partition you specify in the grub ""root"" command.  I hope that helps.
+
+Best Regards,
+
+-- 
+
+",NA,NA
+"<3A6FFDBB0008135C@mail.epost.de> (added by postmaster@mail.epost.de)","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 13:58:05",NA,NA,NA,"[gentoo-dev] GRUB stage1 file not found","Today I tried to install Gentoo Linux 1.0_rc4_pre2 .
+I am not very familiar with linux and followed the installation guide
+step by step.
+The vi confrontation in step 4 had an additional quirk for me because 
+of the german keyboard layout. ( colon is uppercase o-umlaut) ....
+But the stopper was step 5: 
+At the GRUB prompt I typed:
+root (hd0,12)
+setup (hd0,11)
+and grub said checking for /boot/grub/stage1
+and /grub/stage1  file not found
+
+rc 15
+
+According to the install guide the directory is /boot/boot/grub/ 
+where the stage1 file actually is.
+
+What can I do?
+
+XXX
+",NA,NA
+"20010131120136.G22428@cvs.gentoo.org","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 12:01:36",NA,NA,NA,"Re: [gentoo-dev] new to Gentoo","On Wed, Jan 31, 2001 at 06:08:58PM -0000, XX wrote:
+> Hello everyone.
+>
+> I had a few questions.... I have a fairly good working knowledge of Linux
+> (the basics anyway), setting up mail, X, etc. But I was curoius, can anyone
+> reccomend any good books? Any particular book that would be better to learn
+> some of the more advanced stuff? Reccomendations would be appreciated.
+>
+> Also, when I'm booting Gentoo... I installed the ISO, followed all the
+> instructions on the website, but when Grub tries to boot, I end up at a Grub
+> prompt. However, I am able to boot if I manually type the following lines
+> below, the system boots fine. I'm just not sure where I went wrong with the
+> configuration of the Grub menu file.
+>
+> root (hd0,0)
+> kernel /boot/bzImage root=/dev/hda3
+>
+>
+> I'm sorry if this is the wrong list to be posting in, but I figured it
+> definately wouldn't be wanted in gentoo-announce. =)
+
+This is the right list to post on... it's where all the developers who can
+answer your questions hang out :)
+
+Make sure that your menu.lst file is in the right place.  If you mount your
+boot partition at /boot, then the file should be located at
+/boot/boot/grub/menu.lst.  The menu.lst file *does* need to be on your boot
+partition (hda1), and shouldn't be on your root partition (hda3).
+Maybe you created /boot/boot/grub/menu.lst on hda3 by mistake?  Or maybe
+you called it menu.""one""st instead of menu.""el""st?
+
+Best Regards,
+
+-- 
+
+",NA,NA
+"F137Sv0YKpDS7hx27kB00000d65@hotmail.com","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 11:08:51",NA,NA,NA,"[gentoo-dev] new to Gentoo","Hello everyone.
+
+I had a few questions.... I have a fairly good working knowledge of Linux 
+(the basics anyway), setting up mail, X, etc. But I was curoius, can anyone 
+reccomend any good books? Any particular book that would be better to learn 
+some of the more advanced stuff? Reccomendations would be appreciated.
+
+Also, when I'm booting Gentoo... I installed the ISO, followed all the 
+instructions on the website, but when Grub tries to boot, I end up at a Grub 
+prompt. However, I am able to boot if I manually type the following lines 
+below, the system boots fine. I'm just not sure where I went wrong with the 
+configuration of the Grub menu file.
+
+root (hd0,0)
+kernel /boot/bzImage root=/dev/hda3
+
+
+I'm sorry if this is the wrong list to be posting in, but I figured it 
+definately wouldn't be wanted in gentoo-announce. =)
+
+Thanks,
+
+
+_________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com.
+",NA,NA
+"20010131100146.A22428@cvs.gentoo.org","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 10:01:46",NA,NA,NA,"Re: [gentoo-dev] CVS repository","On Wed, Jan 31, 2001 at 05:44:06PM +0900, XX wrote:
+> On Tue, Jan 30, 2001 at 03:12:14PM +0100, XX wrote:
+",NA,NA
+"006a01c08b95$ef8e4400$3028680a@tgt.com","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 07:55:17",NA,NA,NA,"Re: [gentoo-dev] hde and hdg (udma card)","(cd /dev && mknod hde b 3 4 && mknod hdg b 3 6)
+
+
+
+----- Original Message -----
+From: ""XX"" <xx@×××××.net>
+To: <gentoo-dev@g.o>
+Sent: Tuesday, January 30, 2001 3:07 PM
+Subject: [gentoo-dev] hde and hdg (udma card)
+
+
+>     So I got the cd to boot now that I have the fixed file, however I have
+> another little problem.  My hard disks are on a udma100 card and show as
+hde
+> and hdg in linux.  The kernel supports the card and when booting off the
+",NA,NA
+"20010131174406.A3491@rouge.snu.ac.kr","https://archives.gentoo.org/gentoo-dev/",NA,"Wed,  31 Jan 2001 01:44:54",NA,NA,NA,"Re: [gentoo-dev] CVS repository","On Tue, Jan 30, 2001 at 03:12:14PM +0100, XX wrote:
+> This whould be a cool thing. Currently only developers can access the
+> CVS repository.
+> I think we have to possibilities. First you get a developer account.
+> Second we add the possibility to
+> rsync the whole cvs-tree. Let's wait what Daniel thinks about that if he
+> wake up.
+
+I prefer the second.
+Because I didn't contribute anything to GENTOO, and 
+don't have powerful skill to help you so much.
+As you said, I should wait Daniel's answer when he wake up. :)
+
+--
+
+xx@××××××××××××.kr
+",NA,NA
+"001301c08b4c$ee1801e0$0400000a@jamiv","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 23:13:58",NA,NA,NA,"[gentoo-dev] portage question","Ok this is a totally lame question. ;)  I have everything working alright
+now thanks to the answers on the hde and hdg.  However I don't really know
+anything about portage and I was wondering if there is a website with some
+general info on it like the main site for it or such, or anything else that
+would be helpful.  I tried to search for it on the web but failed to find
+anything.  So if anyone can point me to something about it that would be
+appreciated.  Thanks.
+
+XX
+",NA,NA
+"3A779488.A661FF3E@gottinger.de","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 21:56:46",NA,NA,NA,"Re: [gentoo-dev] useradd q","XX wrote:
+
+> Ok, quick question.  After getting everything running and what not on my
+> new rc4_pre2 machine, i'm starting to customize everything to my liking.
+> I'd like to be able to create my own non-root account (for obvious
+> reasons) however i'm getting an error with adduser like so ""PAM
+> authentication failed"".  This comes after typing in the password for my
+> new account i'm trying to create.  Surely there must be some PAM setting
+> which is wrong by default or something, since you should be able to create
+> a new account without too much fuss.  Or perhaps there is some new tool
+> for creating new accounts i don't know about, as i'm still acclimating to
+> my new gentoo environs.  Could anyone shine some light on this problem?
+>
+> thanks,
+
+Make /etc/pam.d/useradd as follows:
+---------------
+auth            required    pam_rootok.so
+account      required    pam_pwdb.so
+session         required    pam_pwdb.so
+--------------
+copy this to /etc/pam.d/shadow
+
+and things should work better you still get a warning like
+useradd: PAM chauthok failed.
+
+I will look into this a little deeper
+
+
+
+>
+>
+> dave
+>
+> _______________________________________________
+> gentoo-dev mailing list
+> gentoo-dev@g.o
+> http://www.gentoo.org/mailman/listinfo/gentoo-dev
+",NA,NA
+"Pine.GSO.4.30.0101302318550.4652-100000@mars.its.yale.edu","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 21:22:32",NA,NA,NA,"[gentoo-dev] useradd q","Ok, quick question.  After getting everything running and what not on my
+new rc4_pre2 machine, i'm starting to customize everything to my liking.
+I'd like to be able to create my own non-root account (for obvious
+reasons) however i'm getting an error with adduser like so ""PAM
+authentication failed"".  This comes after typing in the password for my
+new account i'm trying to create.  Surely there must be some PAM setting
+which is wrong by default or something, since you should be able to create
+a new account without too much fuss.  Or perhaps there is some new tool
+for creating new accounts i don't know about, as i'm still acclimating to
+my new gentoo environs.  Could anyone shine some light on this problem?
+
+
+thanks,
+
+
+
+",NA,NA
+"001101c08b39$4445dd80$0400000a@jamiv","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 21:13:29",NA,NA,NA,"Re: [gentoo-dev] hde and hdg (udma card)","----- Original Message -----
+From: ""Achim Gottinger"" <320095285153-0001@××××××××.de>
+To: <gentoo-dev@g.o>
+Sent: Tuesday, January 30, 2001 6:12 PM
+Subject: Re: [gentoo-dev] hde and hdg (udma card)
+
+
+> XX wrote:
+>
+> >     So I got the cd to boot now that I have the fixed file, however I
+have
+> > another little problem.  My hard disks are on a udma100 card and show as
+",NA,NA
+"20010130203614.C19904@cvs.gentoo.org","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 20:36:14",NA,NA,NA,"[gentoo-dev] 1.0_rc4_pre2 (final!)","The final version of the 1.0_rc4_pre2 ISO is now on ibiblio.org.
+
+Best Regards,
+
+-- 
+
+",NA,NA
+"87y9vsqw0a.fsf@scooby.mysterymachine.ddts.net","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 19:45:45",NA,NA,NA,"Re: [gentoo-dev] Distribution Name","I thought gentoo was short for Generation 2, what do I know.
+
+I think Xx was joking. :P
+
+	At home I use a dual-boot mandrake/win2000 machine and have
+	been boasting about how I only use Linux for my personal and
+	eBusiness consulting (eCommerce websites) But the other day a
+	client needed a complex org-chart type map of a project and
+	after spending a hour time with DIA I rebooted and spent 15
+	minutes with the Visio spreadsheet -> org chart wizard. Visio
+	isn't free but I never regretted buying it.
+
+There is plenty of other Free Software you could have beenusing.
+GNOME and related apps are usually poor examples of good Free
+Software. :P  For instance, you could've been using Lout.
+
+You should have regretted buying it.  What if your neighbour wants a
+copy of Visio.  Can you legally give him a copy?  It's a well known
+fact that no program can ever be known to be bug free, what happens
+when you find a crippling bug in Visio?  And don't say they don't
+exist, because they do.
+
+You keep saying ``Linux'', and judging from the context, I'm going to
+assume that you were referring to the operating system, GNU/Linux.
+
+	I guess my point is that while I consider myself an decent
+	open source/GNU advocate I do not personally nor do I
+	recommend others use only open source software.  I do,
+	however, strive to ensure that all the software I develop, as
+	well as what is developed around me, is ""Free"".
+
+You should recommend that others use only Free Software.  I use only
+Free Software, and have for years, and I don't feel left out in the
+least.
+",NA,NA
+"3A77747C.B8E6B8AD@gottinger.de","https://archives.gentoo.org/gentoo-dev/",NA,"Tue,  30 Jan 2001 19:41:05",NA,NA,NA,"Re: [gentoo-dev] hde and hdg (udma card)","XX wrote:
+
+>     So I got the cd to boot now that I have the fixed file, however I have
+> another little problem.  My hard disks are on a udma100 card and show as hde
+> and hdg in linux.  The kernel supports the card and when booting off the cd
+> everything is fine and I fdisked and installed just fine.  I can even boot
+> ok as grub sees the drives fine.  However, once I am booted I can not get to
+> them because in /dev I only have up through hdd.  So I can't mount my boot
+> partition to setup the grub menu file etc.  It seems like this is a simple
+> problem of adding them to /dev but I don't know how to do that.  If someone
+> can help me out that would be great.
+>
+
+Hmm, boot from the cd, mount your root partition to /mnt/gentoo, chroot there,
+cd to /dev and
+then type
+>MAKEDEV hde
+>MAKEDEV hdg
+>
+
+Or another solution add ""devfs=mount"" to your kernels boot options in the grub
+bootmenu. That means you use
+the devfs filesystem and devices are generated automatic on demand.
+
