@@ -1,0 +1,252 @@
+"'Added a test index.html file and an image to a default htdocs directory to\
+ease new user installations.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76621 13f79535-47bb-0310-9956-ffa450edef68'";71aa1343b0e4001170dbaf0a3b144d;;;03/07/1996 08:18;\N;apache_pb.gif;docs/docroot/apache_pb.gif;docs/docroot/apache_pb.gif;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;LICENSE;\N;docs/manual/LICENSE;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;bind.html;\N;docs/manual/bind.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;bind.html.en;\N;docs/manual/bind.html.en;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;content-negotiation.html;\N;docs/manual/content-negotiation.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;content-negotiation.html.en;\N;docs/manual/content-negotiation.html.en;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;custom-error.html;\N;docs/manual/custom-error.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;custom-error.html.en;\N;docs/manual/custom-error.html.en;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;handler.html;\N;docs/manual/handler.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;handler.html.en;\N;docs/manual/handler.html.en;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;install.html;\N;docs/manual/install.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;install.html.en;\N;docs/manual/install.html.en;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;invoking.html;\N;docs/manual/invoking.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;invoking.html.en;\N;docs/manual/invoking.html.en;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;location.html;\N;docs/manual/location.html;\N;\N
+"'New manual setup. This is the current docs for all versions of the\
+server merged into a single manual.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76987 13f79535-47bb-0310-9956-ffa450edef68'";2ada5933c85b2ca45770c2df27e2d2;;;18/11/1996 20:51;\N;process-model.html;\N;docs/manual/process-model.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_access.html;\N;docs/manual/mod/mod_access.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_actions.html;\N;docs/manual/mod/mod_actions.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_alias.html;\N;docs/manual/mod/mod_alias.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_asis.html;\N;docs/manual/mod/mod_asis.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_auth.html;\N;docs/manual/mod/mod_auth.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_auth_anon.html;\N;docs/manual/mod/mod_auth_anon.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_auth_db.html;\N;docs/manual/mod/mod_auth_db.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_auth_dbm.html;\N;docs/manual/mod/mod_auth_dbm.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_autoindex.html;\N;docs/manual/mod/mod_autoindex.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_cern_meta.html;\N;docs/manual/mod/mod_cern_meta.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_cgi.html;\N;docs/manual/mod/mod_cgi.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_dir.html;\N;docs/manual/mod/mod_dir.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_env.html;\N;docs/manual/mod/mod_env.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_imap.html;\N;docs/manual/mod/mod_imap.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_include.html;\N;docs/manual/mod/mod_include.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_info.html;\N;docs/manual/mod/mod_info.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_log_agent.html;\N;docs/manual/mod/mod_log_agent.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_log_config.html;\N;docs/manual/mod/mod_log_config.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_log_referer.html;\N;docs/manual/mod/mod_log_referer.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_mime.html;\N;docs/manual/mod/mod_mime.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_negotiation.html;\N;docs/manual/mod/mod_negotiation.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_proxy.html;\N;docs/manual/mod/mod_proxy.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_status.html;\N;docs/manual/mod/mod_status.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_userdir.html;\N;docs/manual/mod/mod_userdir.html;\N;\N
+"'Moving files to mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76995 13f79535-47bb-0310-9956-ffa450edef68'";b2ab672f99920e5019879b8a0e5e0e;;;21/11/1996 09:12;\N;mod_usertrack.html;\N;docs/manual/mod/mod_usertrack.html;\N;\N
+"'Moved core.html and modules.html to appropriate places in mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76997 13f79535-47bb-0310-9956-ffa450edef68'";359ae809b83a85f843bc3a7149af4e;;;21/11/1996 09:16;\N;core.html;\N;docs/manual/mod/core.html;\N;\N
+"'Moved core.html and modules.html to appropriate places in mod/\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76997 13f79535-47bb-0310-9956-ffa450edef68'";359ae809b83a85f843bc3a7149af4e;;;21/11/1996 09:16;\N;index.html;\N;docs/manual/mod/index.html;\N;\N
+"'Added gunk from old \auth_dbm.html\"" describing some implementation\";;;;;;;;;;
+issues.  This so we can nuke auth_dbm.html, which really doesn\\'t have\;;;;;;;;;;
+a home... also fixed some minor typos.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76999 13f79535-47bb-0310-9956-ffa450edef68'""";7f251c41c694127f63a5bb697485de;;;21/11/1996 09:39;\N;mod_auth_db.html;docs/manual/mod/mod_auth_db.html;docs/manual/mod/mod_auth_db.html;\N;\N
+"'Added gunk from old \auth_dbm.html\"" describing some implementation\";;;;;;;;;;
+issues.  This so we can nuke auth_dbm.html, which really doesn\\'t have\;;;;;;;;;;
+a home... also fixed some minor typos.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@76999 13f79535-47bb-0310-9956-ffa450edef68'""";7f251c41c694127f63a5bb697485de;;;21/11/1996 09:39;\N;mod_auth_dbm.html;docs/manual/mod/mod_auth_dbm.html;docs/manual/mod/mod_auth_dbm.html;\N;\N
+"'Moved a few more files into info/.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77003 13f79535-47bb-0310-9956-ffa450edef68'";4701b62f1597fbcb2204c8d5a82821;;;21/11/1996 09:53;\N;process-model.html;docs/manual/process-model.html;\N;\N;\N
+"'Moved these files back, as they are related to day to day operations.\
+\
+\
+git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77006 13f79535-47bb-0310-9956-ffa450edef68'";a4fa27ae11f32371f91f7c10b3d402;;;21/11/1996 10:11;\N;process-model.html;\N;docs/manual/process-model.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;API.html;\N;docs/manual/developer/API.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;API.html;\N;docs/manual/misc/API.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;FAQ.html;\N;docs/manual/misc/FAQ.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;client_block_api.html;\N;docs/manual/misc/client_block_api.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;compat_notes.html;\N;docs/manual/misc/compat_notes.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;security_tips.html;\N;docs/manual/misc/security_tips.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;perf-bsd44.html;\N;docs/manual/platform/perf-bsd44.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
+"git-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@77008 13f79535-47bb-0310-9956-ffa450edef68'""";65692a13c06e07a4b5293993e8f865;;;21/11/1996 10:17;\N;perf-dec.html;\N;docs/manual/platform/perf-dec.html;\N;\N
+"'Realized \misc\"" was better than \""info\"" to describe this subdir.  Yeah, I know,\";;;;;;;;;;
+I apologize.\;;;;;;;;;;
+\;;;;;;;;;;
+\;;;;;;;;;;
